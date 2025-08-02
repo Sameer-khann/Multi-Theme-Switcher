@@ -1,0 +1,7 @@
+.card-grid-layout {
+  padding: 2rem;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  min-height: 100vh;
+  color: #1d3557;
+  font-family: 'Pacifico', cursive;
+}

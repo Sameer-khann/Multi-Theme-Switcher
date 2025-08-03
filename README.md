@@ -43,31 +43,18 @@ Edit
  ┗ 📄index.tsx
 🧩 Installation & Usage
 1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/gsap-react-landing.git
-cd gsap-react-landing
+git clone https://github.com/Sameer-khann/Multi-Theme-Switcher.git
+
 2. Install Dependencies
-bash
-Copy
-Edit
 npm install
-# or
-yarn install
+
 3. Start the Development Server
-bash
-Copy
-Edit
 npm start
-# or
-yarn start
+
 ✨ How It Works
 On mousemove, three cursor elements (.cursor, .cursor2, .cursor3) follow the pointer with different easing and delays to create a trailing effect.
 
-Scroll-triggered elements (like .bottle and .bottle-cap) animate into position when .section2 enters the viewport.
-
-Sidebar toggling is handled via state and Tailwind or CSS transitions for seamless interaction.
+Sidebar toggling is handled via state or CSS transitions for seamless interaction.
 
 💼 Why This Project Matters
 This project reflects my attention to design detail, command over animation libraries, and ability to build interactive, performant interfaces. It merges creative aesthetics with engineering precision—a skill I bring to every frontend role.

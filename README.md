@@ -1,46 +1,83 @@
-# Getting Started with Create React App
+🌀 Creative Landing Page with GSAP Animations
+An immersive and modern React-based landing page enhanced with GSAP (GreenSock Animation Platform) to deliver smooth cursor trails, scroll-driven animations, and interactive elements. This project showcases fluid UI transitions, advanced animation control, and pixel-perfect responsiveness—perfect for user-focused brands and product showcases.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Key Features
+🎯 Custom Animated Cursor
+Three layered, responsive cursor trails using GSAP for realistic motion effects.
 
-## Available Scripts
+📜 Scroll-Triggered Animations
+Beautifully animated components (like bottles, caps, and text) that animate dynamically based on scroll position using ScrollTrigger.
 
-In the project directory, you can run:
+🌈 Modern UI & Responsive Design
+Clean layout with toggleable sidebar for better content focus and control.
 
-### `npm start`
+💡 Smooth UX Enhancements
+Motion blur, easing, and staggered transitions enhance interactivity without hurting performance.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+⚛️ Built with React + GSAP
+Modern frontend stack using React (with hooks), GSAP, and ScrollTrigger plugin for precise control over animations.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+📸 Preview
 
-### `npm test`
+Live preview coming soon
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠️ Tech Stack
+Technology	Usage
+React.js	Component-based UI architecture
+GSAP 3	Advanced animations
+GSAP ScrollTrigger	Scroll-based animation control
+CSS Modules	Scoped and clean styling
+Framer Motion (optional)	Alternative animation tool (currently not used)
 
-### `npm run build`
+📁 Folder Structure
+css
+Copy
+Edit
+📦src
+ ┣ 📂components
+ ┃ ┗ 📄Sidebar.tsx
+ ┣ 📂assets
+ ┃ ┗ 📄images, gifs, svgs
+ ┣ 📄App.tsx
+ ┣ 📄CursorEffect.tsx ← Main GSAP logic
+ ┗ 📄index.tsx
+🧩 Installation & Usage
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/gsap-react-landing.git
+cd gsap-react-landing
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+3. Start the Development Server
+bash
+Copy
+Edit
+npm start
+# or
+yarn start
+✨ How It Works
+On mousemove, three cursor elements (.cursor, .cursor2, .cursor3) follow the pointer with different easing and delays to create a trailing effect.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Scroll-triggered elements (like .bottle and .bottle-cap) animate into position when .section2 enters the viewport.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sidebar toggling is handled via state and Tailwind or CSS transitions for seamless interaction.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+💼 Why This Project Matters
+This project reflects my attention to design detail, command over animation libraries, and ability to build interactive, performant interfaces. It merges creative aesthetics with engineering precision—a skill I bring to every frontend role.
 
-### `npm run eject`
+👨‍💻 About Me
+Hi! I'm Samir Khan, a frontend-focused MERN Stack Developer passionate about delivering polished, intuitive user interfaces that feel alive.
+This project is a small glimpse into how I turn imagination into experience. Looking forward to joining a team where design meets tech!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+📫 LinkedIn • Portfolio • Email
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📄 License
+MIT License. Feel free to use this project as inspiration.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

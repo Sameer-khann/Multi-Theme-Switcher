@@ -1,6 +1,7 @@
 .card-grid-layout {
   padding: 2rem;
-  background: linear-gradient(to right, #fceabb, #f8b500);
+  /* background: linear-gradient(to right, #fceabb, #f8b500); */
+  background: linear-gradient(to right, #ffffff, #e75b5b);
   min-height: 100vh;
   color: #1d3557;
   font-family: 'Pacifico', cursive;

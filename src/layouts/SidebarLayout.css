@@ -5,7 +5,7 @@
 
 .sidebar {
   width: 200px;
-  background-color: #2d2d2d;
+  background-color: #020454;
   color: white;
   padding: 1rem;
 }
@@ -13,6 +13,13 @@
 .sidebar ul {
   list-style: none;
   padding: 0;
+}
+
+.sidebar_list_items{
+  background-color: aqua;
+  padding: 1vw;
+  border-radius: 15px;
+  /* color:black; */
 }
 
 .sidebar li {

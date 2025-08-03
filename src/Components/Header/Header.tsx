@@ -5,7 +5,8 @@ import './Header.css';
 
 const Header = () => (
   <header className="header">
-    <h1>🌗 ThemeSwitcher</h1>
+    {/* <image src='' alt='logo'/> */}
+    <h1>The HIPSTER</h1>
     <ThemeDropdown />
   </header>
 );

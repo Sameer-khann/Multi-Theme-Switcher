@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+// import { fetchProducts } from '../../services/productService';
 import { fetchProducts } from '../services/productService';
 import { Product } from '../types/product';
 import Card from '../Components/Card/Card';

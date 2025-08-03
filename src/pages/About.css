@@ -1,5 +1,94 @@
 .about-page {
   padding: 2rem;
+  max-width: 960px;
+  margin: auto;
+  transition: all 0.4s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: var(--accent-color, #333);
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid var(--accent-color, #007bff);
+  padding-left: 0.8rem;
+  color: var(--accent-color, #007bff);
+}
+
+.highlight {
+  font-weight: 600;
+  color: var(--accent-color, #555);
+  margin-top: 1rem;
+}
+
+.list {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.list li {
+  margin-bottom: 0.6rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent-color, #007bff);
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.5rem 1.5rem;
+}
+
+.cta {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.cta a {
+  color: var(--accent-color, #007bff);
+  text-decoration: underline;
+}
+
+.contact a {
+  color: #007bff;
+  word-break: break-word;
+}
+
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .about-page {
+    padding: 1.2rem;
+  }
+}
+
+
+
+/* .about-page {
+  padding: 2rem;
   transition: all 0.4s ease;
 }
 
@@ -14,4 +103,4 @@
   margin-bottom: 1rem;
   line-height: 1.6;
   text-align: justify;
-}
+} */

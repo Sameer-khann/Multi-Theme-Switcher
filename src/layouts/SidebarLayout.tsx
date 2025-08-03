@@ -11,9 +11,9 @@ const SidebarLayout: React.FC<Props> = ({ children }) => {
       <aside className="sidebar">
         <nav>
           <ul>
-            <li><div className="sidebar_list_items"><a style={{color: 'black'}} href="/">🏠 Home</a></div></li>
-            <li><div className="sidebar_list_items"><a style={{color: 'black'}}  href="/about">📖 About</a></div></li>
-            <li><div className="sidebar_list_items"><a style={{color: 'black'}}  href="/contact">📞 Contact</a></div></li>
+            <li><a style={{color: 'black'}} href="/"><div className="sidebar_list_items">🏠 Home</div></a></li>
+            <li><a style={{color: 'black'}}  href="/about"><div className="sidebar_list_items">📖 About</div></a></li>
+            <li><a style={{color: 'black'}}  href="/contact"><div className="sidebar_list_items">📞 Contact</div></a></li>
           </ul>
         </nav>
       </aside>
